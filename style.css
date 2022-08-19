@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=DynaPuff&display=swap');
+
+body{
+    background-color: rgb(51 65 85);
+    color: white;
+    width: 35rem;
+    margin: auto;
+    font-family: 'DynaPuff', cursive;
+    word-spacing: .3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nav-bar{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.link{
+    padding: .5rem;
+    color: white;
+    text-decoration: none;
+}
+     /* for hypotenuse */
+.header{
+    text-align: center;
+}
+.input-lable{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    margin: .5rem;
+}
+.inputs{
+    padding: .5rem;
+    font-size: 1.2rem;
+    border: solid;
+    border: solid blueviolet;
+   border-radius: .4rem;
+}
+#calculate-btn{
+    width: 30%;
+    margin-top: 1rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: solid black;
+    padding: .5rem;
+    font-size: large;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#output{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+     /* for area */
+ #check-btn{
+ width: 30%;
+ margin-top: 1rem;
+ margin-left: 35%;
+ margin-right: 35%;
+ border: solid black;
+ padding: .5rem;
+ font-size: large;
+ background-color: blueviolet;
+cursor: pointer;
+ }
+.for-label{
+text-align: left;
+font-size: 1.4rem;
+ margin: .5rem;
+ }
+.div-container{
+padding: .5rem;
+font-size: 1.4rem;
+ text-align: center;
+ border: solid;
+ border: solid blueviolet;
+ border-radius: .4rem;
+}
+
+         /* for quiz */
+.quiz-form{
+ font-size: larger;
+  }
+#submit-btn{
+ width: 30%;
+margin-top: 1rem;
+margin-left: 35%;
+margin-right: 35%;
+border: solid black;
+padding: .5rem;
+font-size: large;
+background-color: blueviolet;
+cursor: pointer;
+ }
+ .container-center{
+ border: .1rem solid black;
+ padding: .5rem;
+}
+       /* for isTriangle */
+.angles{
+ text-align: left;
+font-size: 1.5rem;
+margin: .5rem;
+ }
+.angle-value{
+ padding: .5rem;
+font-size: 1.2rem;
+border: solid blueviolet;
+border-radius: .4rem;
+ }
+#check-btn{
+margin-left: 35%;
+margin-right: 35%;
+cursor: pointer;
+}
