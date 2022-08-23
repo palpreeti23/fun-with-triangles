@@ -12,12 +12,13 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
+   
 }
 .nav-bar{
+    margin-top: 4rem;
     text-align: center;
     font-size: 1.5rem;
     background-color: blueviolet;
-    margin: 1rem;
     padding: 1rem;
     border-bottom-left-radius: .5rem;
     border-top-right-radius: .5rem;
@@ -54,6 +55,8 @@ body{
     font-size: large;
     background-color: blueviolet;
     cursor: pointer;
+    font-family: 'DynaPuff', cursive;
+    border-radius: .5rem;
 }
 #output{
     text-align: center;
@@ -61,65 +64,88 @@ body{
     margin-top: 1rem;
     font-weight: bold;
 }
-     /* for area */
+        /* for area */
+
  #check-btn{
- width: 30%;
- margin-top: 1rem;
- margin-left: 35%;
- margin-right: 35%;
- border: solid black;
- padding: .5rem;
- font-size: large;
- background-color: blueviolet;
-cursor: pointer;
+   width: 30%;
+   margin-top: 1rem;
+   margin-left: 35%;
+   margin-right: 35%;
+   border: solid black;
+   padding: .5rem;
+   font-size: large;
+   background-color: blueviolet;
+   cursor: pointer;
+   font-family: 'DynaPuff', cursive;
+   border-radius: .5rem;
  }
 .for-label{
-text-align: left;
-font-size: 1.4rem;
- margin: .5rem;
+  text-align: left;
+  font-size: 1.4rem;
+  margin: .5rem;
  }
 .div-container{
-padding: .5rem;
-font-size: 1.4rem;
- text-align: center;
- border: solid;
- border: solid blueviolet;
- border-radius: .4rem;
+   padding: .5rem;
+   font-size: 1.4rem;
+   text-align: center;
+   border: solid;
+   border: solid blueviolet;
+   border-radius: .4rem;
 }
 
          /* for quiz */
+
 .quiz-form{
- font-size: larger;
+   font-size: larger;
   }
 #submit-btn{
- width: 30%;
-margin-top: 1rem;
-margin-left: 35%;
-margin-right: 35%;
-border: solid black;
-padding: .5rem;
-font-size: large;
-background-color: blueviolet;
-cursor: pointer;
+  width: 30%;
+  margin-top: 1rem;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: solid black;
+   padding: .5rem;
+   font-size: large;
+   background-color: blueviolet;
+   cursor: pointer;
+   font-family: 'DynaPuff', cursive;
+   border-radius: .5rem;
  }
- .container-center{
- border: .1rem solid black;
- padding: .5rem;
+ .container-center1{
+    border: .2rem solid black;
+    padding: .5rem;
 }
+.container-center2{
+    margin-top: .7rem;
+    border: .2rem solid black;
+    padding: .5rem;
+   }
+
        /* for isTriangle */
+
 .angles{
- text-align: left;
-font-size: 1.5rem;
-margin: .5rem;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: .5rem;
  }
 .angle-value{
- padding: .5rem;
-font-size: 1.2rem;
-border: solid blueviolet;
-border-radius: .4rem;
+   padding: .5rem;
+   font-size: 1.2rem;
+   border: solid blueviolet;
+   border-radius: .4rem;
  }
 #check-btn{
-margin-left: 35%;
-margin-right: 35%;
-cursor: pointer;
+   margin-left: 35%;
+   margin-right: 35%;
+   cursor: pointer;
+   font-family: 'DynaPuff', cursive;
+   border-radius: .5rem;
 }
+
+@media (max-width: 900px) {
+    html {
+      font-size: 80%;
+      width: 100%;
+    }
+  }
+  
