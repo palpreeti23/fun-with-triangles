@@ -28,6 +28,11 @@ body{
     color: white;
     text-decoration: none;
 }
+.link-active{
+    font-weight: bold;
+    text-decoration: none;
+}
+
      /* for hypotenuse */
 .header{
     text-align: center;
