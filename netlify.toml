@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/istriangle.html"
+status = 200
