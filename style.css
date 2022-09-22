@@ -68,6 +68,7 @@ body{
     font-size: 1.7rem;
     margin-top: 1rem;
     font-weight: bold;
+    margin-bottom: 7rem;
 }
         /* for area */
 
@@ -102,6 +103,7 @@ body{
 
 .quiz-form{
    font-size: larger;
+   
   }
 #submit-btn{
   width: 30%;
@@ -116,15 +118,13 @@ body{
    font-family: 'DynaPuff', cursive;
    border-radius: .5rem;
  }
- .container-center1{
-    border: .2rem solid black;
-    padding: .5rem;
-}
-.container-center2{
+.container-center{
     margin-top: .7rem;
     border: .2rem solid black;
     padding: .5rem;
+
    }
+
 
        /* for isTriangle */
 
@@ -149,7 +149,7 @@ body{
 
 @media (max-width: 900px) {
     html {
-      font-size: 80%;
+      font-size: 70%;
       width: 100%;
     }
   }
